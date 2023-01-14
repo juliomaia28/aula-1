@@ -1,0 +1,6 @@
+idade = input('qual é a sua idade?')
+print(f'Sua idade é: {idade}')
+nome =input('qual e seu nome?')
+print(f'seu nome e: {nome}')
+peso =input('qual e seu peso')
+print(f'seu peso e: {peso}')
