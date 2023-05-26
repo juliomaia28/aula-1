@@ -1,0 +1,29 @@
+ser belongs to experiment group 'ShowPlayIcon - control'
+> conda --version
+> pyenv root
+> python3.7 -c "import sys;print(sys.executable)"
+> python3.6 -c "import sys;print(sys.executable)"
+> python3 -c "import sys;print(sys.executable)"
+> python2 -c "import sys;print(sys.executable)"
+> python -c "import sys;print(sys.executable)"
+> py -3.7 -c "import sys;print(sys.executable)"
+> py -3.6 -c "import sys;print(sys.executable)"
+> py -3 -c "import sys;print(sys.executable)"
+> py -2 -c "import sys;print(sys.executable)"
+> c:\Users\luabud\Apps\tweeter3-master\venv\Scripts\python.exe -c "import sys;print(sys.executable)"
+> ~\AppData\Local\Microsoft\WindowsApps\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> ~\AppData\Local\Microsoft\WindowsApps\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> ~\AppData\Local\Microsoft\WindowsApps\python3.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> ~\AppData\Local\Microsoft\WindowsApps\python3.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> ~\.virtualenvs\Example-II-9dIpm\Scripts\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> ~\.virtualenvs\Example-II-9dIpm\Scripts\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> ~\.virtualenvs\NewEx-cooOG3E3\Scripts\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> ~\.virtualenvs\NewEx-cooOG3E3\Scripts\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> conda info --json
+> conda info --json
+> conda env list
+> C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> C:\Program Files (x86)\Microsoft Visual Studio\Shared\Python36_64\python.exe ~\.vscode\extensions\ms-python.python-2019.9.29097-dev\pythonFiles\interpreterInfo.py
+> conda env list

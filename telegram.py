@@ -1,48 +1,61 @@
-import telebot
-from datetime import datetime, timedelta
-Chave_API = "5810013268:AAFkA6XRkfqAnbloHndGmti0um75csXpZUM"
-bot = telebot.TeleBot(Chave_API)
+###import telebot
 
-hoje = datetime.now()
-data_aula = datetime(year=2023,month=3, day=2,hour=17,)
-regressiva = data_aula-hoje
-regressivas =  data_aula - hoje
-
-option_1 = "HoraAtual"
-option_2 = "DiasParaAula"
-option_3 = "HorasParaAula"
-
-@bot.message_handler(commands=[option_1])
-def opcao1(mensagem):
-     hora = str(hoje.hour)
-     minuto = str(hoje.minute)
-     bot.reply_to(mensagem, f"{hora}:{minuto} horas" )
+#Chave_API = "6264057158:AAGTNAmebiFf4Dr6AKsH631VkXXANPO8hfg"
 
 
-@bot.message_handler(commands=[option_2]) 
-def opcao2(mensagem):
-     bot.reply_to(mensagem, regressiva.days)
+#bot = telebot.TeleBot(Chave_API)
 
-@bot.message_handler(commands=[option_3]) 
-def opcao3(mensagem):
-    bot.reply_to(mensagem, regressivas)
+#@bot.message_handler(commands=["mae"])
+###  bot.send_message(mensagem.chat,id, "tua mae e")
+#
+#@bot.message_handler(commands=["irma"])
+#def irma (mensagem):
+ #   bot.send_message(mensagem.chat.id,"tua irma e")
 
-def verificar(mensagem): 
-     return True
+#@bot.message_handler(commands=["prima"])
+#def prima (mensagem):
+ #   bot.send_message(mensagem.chat.id,"tua prima e")
+  #                   
+
+   # @bot.message_handler(commands=["opcao1"])
+    #def opcao1 (mensagem):
+     
+     #textoo = """
+     #omo queres xingar o adm(clique em uma opcao)
+     #/mae Mae
+     #/irma Irma
+     #/prima Prima """
+     #bot.send_message(mensagem, textoo)
+
+
+#@bot.message_handler(commands=["opcao2"])
+#def opcao2 (mensagem):
+ #   bot.reply_to (mensagem, "vai se lascar mogli")
+
+#@bot.message_handler(commands=["opcao3"])
+#def opcao3 (mensagem):
+
+ #   bot.reply_to (mensagem, "vai se lascar yago")
+
+#def verificar:
+ #    return True
+    
 
 
 
 
 
 
-@bot.message_handler(func = verificar)
-def responder (mensagem): 
-    texto = f"""
-    Escolha uma funcao para conrinuar:
-    /{option_1} que horas sao 
-     /{option_2} quantos dias faltam para a aula
-      /{option_3} quantas horas faltam para aula
-    Responder qualquer coisa nao vai funcionar, clique em alguma opcao. """
-    bot.reply_to(mensagem,texto)
- 
-bot.polling()
+
+
+#@bot.message_handler(func=verificar)
+#def responder (mensagem):
+ #   texto = """
+  #  Escolha uma opcao para continuar(clique no item)
+   # /opcao1 xingar o adm
+    #/opcao2 xingar mogli
+    #opcao3 xingar yago
+    #Responder qualquer coisa nao vai funcionar, clique em alguma opcao. """
+    #bot.reply_to(mensagem,texto)
+
+#bot.polling()
